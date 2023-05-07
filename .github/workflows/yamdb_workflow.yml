@@ -51,7 +51,7 @@ jobs:
             cd yamdb
             sudo docker-compose stop
             sudo docker-compose rm web -f
-            sudo docker-compose pull
+            sudo docker-compose pull web
             rm -f .env
             touch .env
             echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
