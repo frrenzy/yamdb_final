@@ -48,5 +48,5 @@ router.register(
 )
 
 urlpatterns = [
-    path('v2/', include(router.urls)),
+    path('v23/', include(router.urls)),
 ]
